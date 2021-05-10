@@ -1,0 +1,190 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.slider {
+  position: relative;
+  width: 240px;
+  height: 260px;
+  padding: 32px 60px;
+  margin-top: 30px;
+}
+
+.slider__character {
+  width: 240px;
+  height: 240px;
+  border-radius: 5px;
+  box-shadow: 0px 27px 33px -2px hsla(240, 37.3%, 20%, 0.33);
+}
+
+.slider__btn__container {
+  width: 80px;
+  height: 36px;
+  margin: 0px auto;
+  background: #fff;
+  border-radius: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  bottom: 34px;
+  left: 141px;
+  z-index: 1;
+}
+
+.pattern {
+  width: 302px;
+  position: absolute;
+  top: 5px;
+  right: 26px;
+  z-index: -1;
+}
+
+.slider__btn__img {
+  width: 12px;
+  height: 14px;
+  color: hsl(240, 38%, 20%);
+  cursor: pointer;
+}
+
+.container {
+  padding: 10px 28px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.opinion {
+  color: hsl(240, 38%, 20%);
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.quotes {
+  position: absolute;
+  right: 157px;
+  top: 369px;
+  width: 57px;
+}
+
+.name {
+  height: 40px;
+}
+
+.name h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  color: hsl(240, 38%, 20%);
+  font-weight: 700;
+}
+
+h5 {
+  margin-top: 3px;
+  color: hsl(240, 18%, 77%);
+  font-weight: 300;
+}
+
+.attribution {
+  bottom: 0px;
+  position: absolute;
+  text-align: center;
+  font-size: 12px;
+  margin-left: 16px;
+  margin-bottom: 12px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.wave img {
+  width: 100%;
+}
+
+@media (min-width: 376px) {
+  .card {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 650px;
+    padding: 0px 120px;
+  }
+
+  .slider {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    right: 133px;
+  }
+
+  .slider__character {
+    width: 434px;
+    height: 434px;
+    border-radius: 5px;
+    box-shadow: 0px 27px 33px -2px hsla(240, 37.3%, 20%, 0.33);
+  }
+
+  .slider__btn__container {
+    width: 110px;
+    height: 50px;
+    margin: 24px auto;
+    bottom: 54px;
+    position: relative;
+    left: -129px;
+  }
+
+  .slider__btn__img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 80px;
+    text-align: justify;
+  }
+
+  .opinion {
+    font-size: 28px;
+  }
+
+  .name {
+    display: flex;
+  }
+
+  .name h5 {
+    margin-left: 10px;
+  }
+
+  .pattern {
+    width: 560px;
+    top: -20px;
+    right: -16px;
+  }
+
+  .container {
+    position: relative;
+  }
+
+  .quotes {
+    position: absolute;
+    top: 128px;
+    width: 110px;
+    left: 116px;
+  }
+
+  .wave {
+    position: absolute;
+    bottom: -189px;
+    left: 0px;
+  }
+}
